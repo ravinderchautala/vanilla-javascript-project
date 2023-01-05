@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f5f8;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#value {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+}
+.btn {
+  padding: 0.2rem;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+}
