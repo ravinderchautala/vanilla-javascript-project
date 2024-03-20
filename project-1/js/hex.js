@@ -6,7 +6,7 @@ const color = document.querySelector('.color');
 btn.addEventListener('click', function () {
     let code = '#';
     for (let i = 0; i <= 5; i++) {
-        let number = Math.floor(Math.random() * 16);
+        let number = Math.floor(Math.random() * hex.length);
         code = code + hex[number];
     }
     color.textContent = code;
